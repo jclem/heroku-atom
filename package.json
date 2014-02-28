@@ -1,0 +1,23 @@
+{
+  "name": "heroku",
+  "main": "./lib/heroku",
+  "version": "0.0.0",
+  "private": true,
+  "description": "A short description of your package",
+  "activationEvents": [
+    "heroku:deploy"
+  ],
+  "repository": "https://github.com/atom/heroku",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+    "knox": "~0.8.9",
+    "request": "~2.34.0",
+    "tar.gz": "~0.1.1",
+    "mktemp": "~0.3.4",
+    "fstream": "~0.1.25",
+    "tar": "git://github.com/radekstepan/node-tar.git#20c1e6b50393eb252ec372c4bfe69aa7357e5e98"
+  }
+}
