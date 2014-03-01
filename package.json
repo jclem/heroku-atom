@@ -1,7 +1,7 @@
 {
   "name": "heroku",
   "main": "./lib/heroku",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "a heroku package for the atom text editor",
   "activationEvents": [
     "heroku:deploy"
